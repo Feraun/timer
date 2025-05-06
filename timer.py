@@ -132,7 +132,7 @@ class Window(QWidget):
                     self.timer1.setText("00:00")
                     self.btn_start.setText("Старт")
                     if self.audio.checkState():
-                        QSound.play('C:\\Users\\artgr\\OneDrive\\gam1\\pisc.wav') #писк при нуле
+                        QSound.play('C:\\....\\pisc.wav') #писк при нуле
 
 
     #функция кнопки сброса
@@ -147,10 +147,10 @@ class Window(QWidget):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv) 
-    app.setWindowIcon(QtGui.QIcon('C:\\Users\\artgr\\OneDrive\\gam1\\icon.ico'))
+    app.setWindowIcon(QtGui.QIcon('C:\\....\\icon.ico'))
     
     window = Window()
-    window.setWindowIcon(QtGui.QIcon('C:\\Users\\artgr\\OneDrive\\gam1\\icon.ico'))
+    window.setWindowIcon(QtGui.QIcon('C:\\....\\icon.ico'))
     
     window.show()
     sys.exit(app.exec())
